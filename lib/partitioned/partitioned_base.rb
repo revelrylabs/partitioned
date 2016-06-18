@@ -1,7 +1,7 @@
 #
 # :include: ../../README
 #
-# require "bulk_data_methods"
+require "bulk_data_methods"
 
 module Partitioned
   #
@@ -29,7 +29,7 @@ module Partitioned
   #
   class PartitionedBase < ActiveRecord::Base
     include ActiveRecordOverrides
-    #extend ::BulkMethodsMixin
+    extend ::BulkMethodsMixin
 
     self.abstract_class = true
 
