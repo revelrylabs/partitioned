@@ -1,7 +1,7 @@
 #
 # :include: ../../README
 #
-require "bulk_data_methods"
+# require "bulk_data_methods"
 
 module Partitioned
   #
