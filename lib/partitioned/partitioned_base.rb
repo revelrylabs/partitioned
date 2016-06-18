@@ -29,7 +29,7 @@ module Partitioned
   #
   class PartitionedBase < ActiveRecord::Base
     include ActiveRecordOverrides
-    extend ::BulkMethodsMixin
+    #extend ::BulkMethodsMixin
 
     self.abstract_class = true
 
